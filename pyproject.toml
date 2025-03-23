@@ -3,7 +3,5 @@ name = "lectures"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
-requires-python = ">=3.12"
-dependencies = [
-    "torch>=2.6.0",
-]
+requires-python = ">=3.11"
+dependencies = ["setuptools>=77.0.3", "torch>=2.6.0", "wheel>=0.45.1"]
